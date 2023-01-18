@@ -85,7 +85,7 @@ document.write(`<br>Кількість позитивних парних еле�
 //7. Знайти суму парних позитивних елементів.
 
 let sumPlusEven = 0;
-let sumPlusOdd = 0;
+let sumPlusOdd = 0; 
 
 
 for (const myArrItem of myArr) {
