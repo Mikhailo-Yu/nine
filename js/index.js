@@ -3,13 +3,13 @@ let myArr =  [16,-37,54,-4,72,-56,47,4, -16,25,-37,46,4,-51,27,-63,4,-54,76,-4,1
 //1. Знайти суму та кількість позитивних елементів.
 let sumPlus = 0;
 let count = 0;
-let PlusMult = 1;
+let PlusMult = 1; // до 9 завдання
 
 for (const myArrItem of myArr) {
     if (myArrItem >= 0) {
         sumPlus = sumPlus + myArrItem;
         count = count + 1;
-        PlusMult = PlusMult * myArrItem;
+        PlusMult = PlusMult * myArrItem; // до 9 завдання
     }
 }
 
@@ -85,14 +85,14 @@ document.write(`<br>Кількість позитивних парних еле�
 //7. Знайти суму парних позитивних елементів.
 
 let sumPlusEven = 0;
-let sumPlusOdd = 0; 
+let sumPlusOdd = 0; //до 8 завдання
 
 
 for (const myArrItem of myArr) {
     if (myArrItem > 0 && myArrItem % 2 === 0) {
         sumPlusEven   = sumPlusEven   + myArrItem;
     } else if (myArrItem > 0 && myArrItem % 2 !== 0) {
-        sumPlusOdd   = sumPlusOdd   + myArrItem;
+        sumPlusOdd   = sumPlusOdd   + myArrItem; //до 8 завдання
     }
 }
 
